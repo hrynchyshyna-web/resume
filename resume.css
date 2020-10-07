@@ -1,0 +1,357 @@
+/*.block {*/
+/*     width: 100%;*/
+/*}*/
+/*.block img {*/
+/*     width: 100%;*/
+/*     display: block;*/
+/*}*/
+body {
+     margin: 0;
+     background: #E5E5E5;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+.container_main {
+     position: relative;
+     display: flex;
+     width: 902px;
+     height: 612px;
+}
+
+.column-left{
+     width: 270px;
+     height: 612px;
+     /*width:30%;*/
+     /*height: 100%;*/
+     background: url("adult-backpack-city-845457.png");
+     background-size: cover;
+     display: block;
+}
+
+.column-right{
+     width: 632px;
+     height: 612px;
+     /*width: 70%;*/
+     /*height: 100%;*/
+     background: white;
+     display: flex;
+     flex-direction: column;
+
+}
+.column-right-top {
+     width: 100%;
+     height: 18%;
+     display: flex;
+     background: white;
+     flex-direction: column;
+}
+.column-right-bottom {
+     width: 100%;
+     height: 88%;
+     display: flex;
+     flex-direction: column;
+     background: #F9F9F9;
+}
+
+.top-content {
+     margin-top: 32px;
+     color: #000000;
+}
+.top-content2 {
+     margin-top: 0;
+     color: #666666;
+}
+
+.font-size2 {
+     display: flex;
+     margin-left: 82px;
+     font-family: Arial, sans-serif;
+     font-size: 18px;
+     line-height: 21px;
+}
+
+
+/*.p{*/
+/*     padding: 0;*/
+/*     margin-top: 0;*/
+/*     margin-bottom: 0;*/
+/*}*/
+.ul-position {
+     padding: 0 15px;
+     margin: 8px 0 0 82px;
+     font-family: Arial, sans-serif;
+     font-size: 13px;
+     line-height: 15px;
+     color: #000000;
+}
+.font-size {
+     font-family: Arial, sans-serif;
+     font-size: 18px;
+     line-height: 21px;
+     color: #000000;
+     margin-left: 82px;
+     margin-top: 36px;
+     margin-bottom: 0;
+}
+
+.logo {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 113px;
+     height: 44px;
+
+     background: #FFFFFF;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-content {
+     font-family: Audi Type, sans-serif;
+     font-size: 24px;
+     line-height: 29px;
+     /* identical to box height */
+
+
+}
+/*.right-bottom-drive {*/
+/*     margin-left: 82px;*/
+/*     margin-top: 36px;*/
+/*     margin-bottom: 0;*/
+/*}*/
+/*.right-bottom-goals {*/
+/*     margin-left: 82px;*/
+/*     margin-top: 36px;*/
+/*}*/
+
+/*.right-bottom-hesitations {*/
+/*     margin-left: 82px;*/
+/*     margin-top: 36px;*/
+/*}*/
+
+/*.ul-goals {*/
+/*     padding: 0 15px;*/
+/*     margin: 8px 0 0 82px;*/
+/*     font-family: Arial, sans-serif;*/
+/*     font-size: 13px;*/
+/*     line-height: 15px;*/
+/*     color: #000000;*/
+
+/*}*/
+/*.column-right-bottom-hesitations {*/
+/*     font-family: Arial, sans-serif;*/
+/*     font-size: 18px;*/
+/*     line-height: 21px;*/
+/*     color: #000000;*/
+
+/*     margin-left: 82px;*/
+/*     margin-top: 1px;*/
+/*}*/
+
+/*.ul-hesitations {*/
+/*     padding: 0 15px;*/
+/*     margin: 8px 0 0 82px;*/
+/*     font-family: Arial, sans-serif;*/
+/*     font-size: 13px;*/
+/*     line-height: 15px;*/
+/*     color: #000000;*/
+/*}*/
+
+
+/*.column-right-picture{*/
+/*        background: #C4C4C4;*/
+/*          width: 270px;*/
+/*          height: 612px;*/
+/*    background: url("adult-backpack-city-845457.svg");*/
+
+/*}*/
+
+/*.main__person {*/
+/*     !*position: absolute;*!*/
+/*     !*width: 828px;*!*/
+/*     !*height: 612px;*!*/
+/*     !*left: -279px;*!*/
+/*     !*top: 0px;*!*/
+
+/*     display: flex;*/
+
+/*     !*width: 270px;*!*/
+/*     !*height: 612px;*!*/
+/*     !*left: 0px;*!*/
+/*     !*top: 0px;*!*/
+
+/*     background: #C4C4C4;*/
+
+/*     background: url("adult-backpack-city-845457.svg") center center no-repeat;*/
+/*     !*background-size: cover;*!*/
+/*}*/
+
+/*.main__person__content {*/
+/*     display: flex;*/
+/*     width: 100%;*/
+/*     width: 270px;*/
+/*     height: 612px;*/
+/*     left: 0px;*/
+/*     top: 0px;*/
+/*     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);*/
+
+/*}*/
+
+/*.main__content { display: flex;*/
+/*     flex: 0 0 0px;*/
+/*     box-sizing: border-box;*/
+/*     position: absolute;*/
+/*     left:0px;*/
+/*     top: 0px;*/
+/*}*/
+/*.header {position: absolute;*/
+/*     width: 100px;*/
+/*     height: 21px;*/
+/*     left: 350px;*/
+/*     top: 32px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 18px;*/
+/*     line-height: 21px;*/
+
+/*     color: #000000;*/
+
+/*}*/
+
+/*.header__content{*/
+/*     position: absolute;*/
+/*     width: 402px;*/
+/*     height: 21px;*/
+/*     left: 350px;*/
+/*     top: 53px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 18px;*/
+/*     line-height: 21px;*/
+/*     !* identical to box height *!*/
+
+/*     color: #666666;*/
+/*}*/
+
+/*.container {*/
+/*     position: absolute;*/
+/*     width: 632px;*/
+/*     height: 499px;*/
+/*     left: 270px;*/
+/*     top: 113px;*/
+
+/*     right: 0;*/
+/*     bottom: 0;*/
+/*     background: #F9F9F9;*/
+/*}*/
+/*.drive{*/
+/*     position: absolute;*/
+/*     width: 46px;*/
+/*     height: 21px;*/
+/*     left: 82px;*/
+/*     top: 36px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 18px;*/
+/*     line-height: 21px;*/
+
+/*     color: #000000;*/
+/*}*/
+/*.drive__content{*/
+/*     position: absolute;*/
+/*     width: 456px;*/
+/*     height: 60px;*/
+/*     left: 82px;*/
+/*     top: 65px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 13px;*/
+/*     line-height: 15px;*/
+
+/*     color: #000000;*/
+/*}*/
+
+/*.goals{*/
+/*     position: absolute;*/
+/*     width: 128px;*/
+/*     height: 21px;*/
+/*     left: 82px;*/
+/*     top: 161px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 18px;*/
+/*     line-height: 21px;*/
+
+/*     color: #000000;*/
+/*}*/
+/*.goals__content{*/
+/*     position: absolute;*/
+/*     width: 387px;*/
+/*     height: 75px;*/
+/*     left: 82px;*/
+/*     top: 190px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 13px;*/
+/*     line-height: 15px;*/
+
+/*     color: #000000;*/
+
+/*}*/
+/*.hesitations {*/
+/*     position: absolute;*/
+/*     width: 219px;*/
+/*     height: 21px;*/
+/*     left: 82px;*/
+/*     top: 301px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 18px;*/
+/*     line-height: 21px;*/
+
+/*     color: #000000;*/
+/*}*/
+/*.hesitations__content{*/
+/*     position: absolute;*/
+/*     width: 505px;*/
+/*     height: 105px;*/
+/*     left: 82px;*/
+/*     top: 330px;*/
+
+/*     font-family: Arial;*/
+/*     font-size: 13px;*/
+/*     line-height: 15px;*/
+
+/*     color: #000000;*/
+/*}*/
+/*.logo{ display: flex;*/
+/*     flex-direction: row;*/
+/*     justify-content: flex-end;*/
+/*     !*align-items: flex-end;*!*/
+/*     position: absolute;*/
+/*     !*width: 85px;*!*/
+/*     !*height: 30px;*!*/
+/*     left: 519px;*/
+/*     top: 455px;*/
+/*     z-index: 1;*/
+/*     font-family: Audi Type;*/
+/*     font-size: 24px;*/
+/*     line-height: 29px;*/
+/*     margin: 7px 24px 7px;*/
+/*     color: #000000;*/
+/*}*/
+/*.logo_container {*/
+/*     position: absolute;*/
+/*     display: flex;*/
+/*     !*justify-content: flex-start;*!*/
+/*     !*align-items: center;*!*/
+/*     width: 113px;*/
+/*     height: 44px;*/
+/*     left: 519px;*/
+/*     top: 455px;*/
+/*     z-index: 0;*/
+/*     background: #FFFFFF;*/
+/*     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+/*}*/
