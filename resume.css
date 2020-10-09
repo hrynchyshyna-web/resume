@@ -5,21 +5,30 @@
 /*     width: 100%;*/
 /*     display: block;*/
 /*}*/
+html {
+     height: 100%;
+}
 body {
      margin: 0;
      background: #E5E5E5;
-     justify-content: center;
-     align-items: center;
-     display: flex;
+     /*justify-content: center;*/
+     /*align-items: center;*/
+     /*display: flex;*/
 }
 .container_main {
      position: relative;
      display: flex;
-     width: 902px;
-     height: 612px;
+     /*width: 902px;*/
+     /*height: 612px;*/
 }
 
 .column-left{
+     flex-grow: 1;
+     flex-shrink: 1;
+     flex-basis: auto;
+     min-width: 270px;
+max-width: 270px;
+
      width: 270px;
      height: 612px;
      /*width:30%;*/
@@ -28,8 +37,59 @@ body {
      background-size: cover;
      display: block;
 }
+.gradient{
+     flex-grow: 1;
+     flex-shrink: 1;
+     flex-basis: auto;
 
+     position: absolute;
+     width: 270px;
+     height: 125px;
+     left: 0px;
+     top: 487px;
+
+
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.name {
+     position: absolute;
+     width: 218px;
+     height: 36px;
+     left: 16px;
+     top: 502px;
+     margin: 0;
+     font-family: Bw Modelica, sans-serif;
+     font-size: 30px;
+     line-height: 36px;
+     color: #FFFFFF;
+     z-index: 1;
+}
+.left-age {
+     margin: 0;
+     position: absolute;
+     width: 185px;
+     height: 17px;
+     left: 16px;
+     top: 554px;
+
+     font-family: Bw Modelica, sans-serif;
+     font-size: 14px;
+     line-height: 17px;
+     color: #FFFFFF;
+     z-index: 1;
+}
+.left-position {
+     position: absolute;
+     width: 178px;
+     height: 17px;
+     left: 16px;
+     top: 579px;
+}
 .column-right{
+     flex-grow: 1;
+     flex-shrink: 1;
+     flex-basis: auto;
+min-width: 630px;
      width: 632px;
      height: 612px;
      /*width: 70%;*/
@@ -41,17 +101,19 @@ body {
 }
 .column-right-top {
      width: 100%;
-     height: 18%;
+     height: 113px;
      display: flex;
      background: white;
      flex-direction: column;
+     /*flex: 1 0 auto;*/
 }
 .column-right-bottom {
      width: 100%;
-     height: 88%;
+     min-height: 499px;
      display: flex;
      flex-direction: column;
      background: #F9F9F9;
+     /*flex: 1 0 100%;*/
 }
 
 .top-content {
@@ -84,6 +146,14 @@ body {
      font-size: 13px;
      line-height: 15px;
      color: #000000;
+}
+ul{
+     /*padding: 0 0 0 0;*/
+     /*margin: 0 0 0 0;*/
+     list-style: disc;
+margin-left: 0;
+     padding-inline-start: 0px;
+     margin-block-end: 1em;
 }
 .font-size {
      font-family: Arial, sans-serif;
